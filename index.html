@@ -1,52 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Front-end development with no compromise whatsoeverr. Tuomas Hatakka.</title>
-    <meta name="description" content="Front-end development with no compromise whatsoeverr. Tuomas Hatakka">
-<body>
-    <main>
-        <section id='root'></section>
-    </main>
-    <script async src='./dist/index.js'></script>
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Front-end development with no compromise whatsoeverr. Tuomas Hatakka.</title>
+        <meta name="description" content="Front-end development with no compromise whatsoeverr. Tuomas Hatakka">
 
-        body {
-            background: black;
-            color: white;
+    <body>
+        <main>
+            <section id='root'>Front-end development with no compromise whatsoeverr. Tuomas Hatakka.</section>
+        </main>
+        <script async src='./dist/index.js'></script>
 
-            padding: 60px 20vw;
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
-            font-size: 4vw;
-            font-family: "Space Mono";
-        }
-
-        @keyframes blink {
-            0% {
-               background: white;
-               color: black;
-            }
-            40% {
-               background: white;
-               color: black;
-            }
-            70% {
+            body {
                 background: black;
                 color: white;
-            }
-            100% {
-                background: black;
-                color: white;
-            }
-        }
 
-        .letter:not(:empty):last-child {
-            animation: blink 750ms ease-in-out 0ms infinite;
-        }
-    </style>
-</body>
+                padding: 60px 20vw;
+
+                font-size: 4vw;
+                font-family: "Space Mono";
+            }
+
+            @keyframes blink {
+                0% {
+                    background: white;
+                    color: black;
+                }
+
+                40% {
+                    background: white;
+                    color: black;
+                }
+
+                70% {
+                    background: black;
+                    color: white;
+                }
+
+                100% {
+                    background: black;
+                    color: white;
+                }
+            }
+
+            .letter:not(:empty):last-child {
+                animation: blink 750ms ease-in-out 0ms infinite;
+            }
+
+        </style>
+    </body>
+
 </html>

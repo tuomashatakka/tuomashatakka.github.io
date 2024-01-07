@@ -1,0 +1,10 @@
+{
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "eqeqeq": "warn",
+    "strict": "off",
+    "semi": [2, "never"]
+  }
+}

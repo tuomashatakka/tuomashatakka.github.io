@@ -1,5 +1,6 @@
-function typeText(element, text) {
+function typeText(element) {
   let interval;
+  const text = element.textContent;
   const letters = text.split('');
 
   const createLetterNode = letter => {
@@ -16,8 +17,9 @@ function typeText(element, text) {
     element.appendChild(node);
   };
 
+  element.textContent = '';
   interval = setInterval(typeNextLetter, 100);
 }
 
 const rootNode = document.getElementById('root');
-typeText(rootNode, 'tunpi tech');
+typeText(rootNode);

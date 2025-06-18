@@ -1,0 +1,11 @@
+Model Information:
+* title:	Lowpoly Buildings
+* source:	https://sketchfab.com/3d-models/lowpoly-buildings-eccb92b88be04334a8aefd3751612800
+* author:	l0wpoly (https://sketchfab.com/l0wpoly)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Lowpoly Buildings" (https://sketchfab.com/3d-models/lowpoly-buildings-eccb92b88be04334a8aefd3751612800) by l0wpoly (https://sketchfab.com/l0wpoly) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
